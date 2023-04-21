@@ -58,8 +58,11 @@ body {
   justify-content: space-between;
   padding: 20px 80px;
   background: #e3e6f3;
-  box-shadow: 0 5px 15px, rgb(0, 0 ,0,0.06);
-
+  box-shadow: 10px 5px 5px rgb(0, 0,0,0.2);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
 }
 
 .navbar{
@@ -96,4 +99,36 @@ body {
   position: absolute;
   bottom: -4px;
   left: 32px;
+}
+
+#hero{
+  background-image: url(hero4.png);
+  height: 90vh;
+  width: 100%;
+  background-size: cover;
+  background-position: top 25% right 0;
+  padding: 0 80px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#hero h4{
+  padding-bottom: 15px;
+}
+
+#hero h1{
+  color: #088178;
+}
+
+#hero button{
+  background-image: url(button.png);
+  background-color: transparent;
+  color: #088178;
+  border: 0;
+  padding: 14px 70px 14px 65px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 700;
 }
